@@ -10,7 +10,11 @@
 4、supervisor_nginx.conf文件为supervisor管理nginx进程的相关配置文件;
 
 5、Dockerfile中提到的image可以通过如下方式下载：
+
 docker pull xinghen/centos:6
+
 最终生成的docker-nginx镜像下载：
+
 docker  pull xinghen/nginx1.9.3:centos6
+
 大小：413.7 MB
