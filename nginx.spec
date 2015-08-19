@@ -106,11 +106,6 @@ fi
 #%attr(0755,root,root)	/etc/rc.d/init.d/nginx
 
 %changelog
-* Mon Aug 10 2015 Yichao Chen <cycxhen@hotmail.com> -1.9.3-3
-- Update nginx version to 1.9.3
-* Wed Nov 26 2014 Chen Yichao	<cycxhen@hotmail.com> -1.6.2-2
-- Add sysv script /etc/rc.d/init.d/nginx
-- Update nginx version to 1.7.7
-* Wed Nov 26 2014 Chen YiChao	<cycxhen@hotmail.com> -1.6.2-1
+* Mon Aug 10 2015 Yichao Chen <cycxhen@hotmail.com> -1.9.3-1
 - Initial version
 #End
