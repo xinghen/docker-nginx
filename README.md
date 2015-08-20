@@ -18,3 +18,11 @@ docker pull xinghen/centos:6
 docker  pull xinghen/nginx1.9.3:centos6
 
 大小：413.7 MB
+
+6、运行方法：
+
+docker  run -d -p 80:80 --name nginx xinghen/nginx1.9.3:centos6
+
+我只开了80端口，没考虑443.
+
+有的人可能觉着太麻烦了，我其实又是rpm包的又是这那的，其实都是为了让最终的docker  image尽可能的小点。
